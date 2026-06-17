@@ -101,7 +101,6 @@ function draw() {
     noiseFilter.freq(8000);
   }
 
-
   // 노이즈
   let newNoises = [];
 
@@ -156,7 +155,6 @@ function draw() {
     clearColorT = 0;
     restartDelay = 0;
   }
-
 
   // 타겟 및 플레이어 업데이트
   target.update(noiseRatio);
@@ -590,13 +588,11 @@ function drawStartScreen() {
 
   textSize(height * 0.03);
 
-  text(
-    "ARROW KEYS : MOVE\n\nSPACE : REST IN ISOLATION\n\nFOLLOW THE LIGHT",
-    width / 2,
-    height * 0.52,
-  );
+  text("FOLLOW THE LIGHT\n\nENDURE THE NOISE\nUNTIL IT FILLS THE WORLD", width / 2, height * 0.5,);
 
   textSize(height * 0.025);
+
+  text("ARROWS : MOVE\nSPACE : REST IN ISOLATION", width / 2, height * 0.7);
 
   text("PRESS ENTER", width / 2, height * 0.82);
 }
