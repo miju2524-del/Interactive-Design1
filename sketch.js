@@ -514,8 +514,8 @@ function drawClear() {
   text(visible, width * 0.05, height * 0.08);
 
   if (typedChars > clearText.length + 40) {
-    endingTargetX = width * 0.285;
-    endingTargetY = height * 0.824;
+    endingTargetX = width * 0.29;
+    endingTargetY = height * 0.83;
 
     endingPlayerX = lerp(endingPlayerX, endingTargetX, 0.04);
     endingPlayerY = lerp(endingPlayerY, endingTargetY, 0.04);
