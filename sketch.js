@@ -433,8 +433,8 @@ function drawGameOver() {
     text(visible, width * 0.05, height * 0.08);
 
     if (typedChars > gameOverText.length + 30) {
-      endingTargetX = width * 0.256;
-      endingTargetY = height * 0.82;
+      endingTargetX = width * 0.27;
+      endingTargetY = height * 0.83;
 
       endingPlayerX = lerp(endingPlayerX, endingTargetX, 0.04);
       endingPlayerY = lerp(endingPlayerY, endingTargetY, 0.04);
